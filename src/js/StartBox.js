@@ -8,5 +8,5 @@ export default class StartBox extends InfoBox () {
 		<button>Start</button>
 		</div>
 		`;
-		}
-	}
+		};
+	};
