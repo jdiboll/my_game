@@ -8,17 +8,17 @@ export default class InactivePiece extends Pieces {
 		this.Xposition =
 		this.Yposition =
 	};
-	Box2 = new Box () {
+	var InactivePiece2 = new InactivePiece () {
 		this.color = 
 		this.Xposition = 
 		this.Yposition =
 	};
-	Box3 = new Box () {
+	var InactivePiece3 = new InactivePiece () {
 		this.color = 
 		this.Xposition = 
 		this.Yposition =
 	};
-	Box4 = new Box () {
+	var InactivePiece4 = new InactivePiece () {
 		this.color = 
 		this.Xposition = 
 		this.Yposition =
