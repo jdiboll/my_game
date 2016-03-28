@@ -1,8 +1,32 @@
 /* CSS Entry Point */
-.gamePage {
-	background-color: #5f8496;
+.app {
+	background-color: black;
 	display: flex;
+	justify-content: space-around;
 	justify-content: center;
-	align-items: center;
-	
+	//align-items: strech;
+
+}
+.goodGuy img {
+	width: auto;
+	height: auto;
+	max-width: 60%;
+	max-height: 60%;
+	float: left;
+	//justify-content: space-around;
+}
+.badGuy img {
+	width: auto;
+	height: auto;
+	max-height: 50%;
+	max-width: 50%;
+	float: right;
+	//justify-content: space-around;
+}
+.fighters {
+	font-size: 28px;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+
 }
