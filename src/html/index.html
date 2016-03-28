@@ -6,16 +6,25 @@
 </head>
 <body>
   <div class="app">
-  	
+  <header><h2>Walter fights the Jesus!!</h2></header>
   	<div class= "fighters">
   		<div class="goodGuy">
   			<img src="https://skiffleboom.files.wordpress.com/2011/12/over_the_line_walter_lebowski_skiffleboom.jpg?w=590&h=463">
+        <div class="health" id="walterHealth">
+          <progress id ="walterHealth" max="100"></progress>
+        </div>
   		</div>
   		<div>Versus</div>
   		<div class="badGuy">
   		<img src="https://imagemacros.files.wordpress.com/2011/11/jesus_nobody_fucks.jpg">
+      <div class="health" id="jesusHealth">
+        <progress id="jesusHealth" max="100"></progress>
+      </div>
   		</div>
   	</div>
+    <div class="fight">
+      <button>Enter a World of Pain.</button>
+    </div>
   </div>
   <script src="js/bundle.js"></script>
 </body>
