@@ -19,7 +19,7 @@ class Player {
 		
 
 	
-	var bgHealth = document.querySelector('#jesusHealth');
+	//var bgHealth = document.querySelector('#jesusHealth');
 
 $('button').on('click', function (){
 	var num1 = _.random(2,25);
@@ -41,9 +41,16 @@ $('button').on('click', function (){
 		<progress value="${badGuy.health}" max="100"></progress>
 	`);
 
-
+	if (goodGuy.health <= 0) {
+		alert("Dios Mio, man!!")
+	} else if (badGuy.health <= 0) {
+		alert("Mark it Zero!!!")
+	};
+		
 
 })
+	
+	
 
 
 // Left to MVP
