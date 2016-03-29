@@ -42,9 +42,9 @@ $('button').on('click', function (){
 	`);
 
 	if (goodGuy.health <= 0) {
-		alert("Dios Mio, man!!")
+		alert("Dios Mio, man!!") && Player.health == 100;
 	} else if (badGuy.health <= 0) {
-		alert("Mark it Zero!!!")
+		alert("Mark it Zero!!!") && Player.health == 100;
 	};
 		
 

@@ -2,31 +2,55 @@
 .app {
 	background-color: black;
 	display: flex;
-	justify-content: space-around;
-	justify-content: center;
-	//align-items: strech;
+	//justify-content: space-around;
+	//justify-content: center;
+	align-items: center;
 
 }
+header {
+	margin: 30px;
+	color: #a70a33;
+	font-size: 28px;
+}
+.goodGuy {
+	margin: auto;
+	padding-top: 30px;
+}
 .goodGuy img {
+	border: 2px solid #006fb9;
 	width: auto;
 	height: auto;
-	max-width: 70%;
-	max-height: 70%;
-	float: left;
+	max-width: 60%;
+	max-height: 60%;
+	//float: left;
 	//justify-content: space-around;
 }
+.fight {
+	margin: 20px;
+}
+ button {
+ 	margin: 50px;
+	border-radius: 3px;
+	background-color: #89c6de;
+	font-size: 28px;
+	color: white;
+}
+.badGuy {
+	margin: auto;
+}
 .badGuy img {
+	border: 2px solid #006fb9;
 	width: auto;
 	height: auto;
 	max-height: 60%;
 	max-width: 60%;
-	float: right;
+	//float: right;
 	//justify-content: space-around;
 }
 .fighters {
 	font-size: 28px;
 	color: white;
-	display: flex;
-	justify-content: space-around;
+	//display: flex;
+	//justify-content: space-around;
 
 }
